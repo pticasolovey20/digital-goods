@@ -29,7 +29,7 @@ export const GoodsItem = ({ item, onClick, icon, added }) => {
 					}}
 				>
 					<Typography alignSelf="center">
-						Price: {item.price}
+						Price: {item.price} UAH
 					</Typography>
 					<Box sx={{ cursor: "pointer" }}>
 						<IconButtonComponent

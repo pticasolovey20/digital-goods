@@ -13,6 +13,7 @@ import { Container } from "@mui/material";
 import { GoodsItem } from "../components/GoodsItem";
 import { ModalComponent } from "../components/ModalComponent";
 import { SelectField } from "../components/SelectField";
+import { LoadingPage } from "./LoadingPage";
 
 export const GoodsPage = () => {
 	const [openModal, setOpenModal] = useState(false);
@@ -20,7 +21,7 @@ export const GoodsPage = () => {
 
 	const dispatch = useDispatch();
 
-	const { goods } = useSelector((state) => state.goodsReducer);
+	const { goods, loading } = useSelector((state) => state.goodsReducer);
 	const { isAuth } = useAuth();
 
 	useEffect(() => {
@@ -46,6 +47,10 @@ export const GoodsPage = () => {
 			dispatch(sortByLowPriceAction());
 		}
 	};
+
+	if (loading) {
+		return <LoadingPage />;
+	}
 
 	return (
 		<Container
