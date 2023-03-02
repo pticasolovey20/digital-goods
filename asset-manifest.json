@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/digital-goods/static/css/main.7d9b7e36.css",
+    "main.js": "/digital-goods/static/js/main.c94b0b1e.js",
+    "static/media/empty.png": "/digital-goods/static/media/empty.892bd5952464ffc9399f.png",
+    "index.html": "/digital-goods/index.html",
+    "main.7d9b7e36.css.map": "/digital-goods/static/css/main.7d9b7e36.css.map",
+    "main.c94b0b1e.js.map": "/digital-goods/static/js/main.c94b0b1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d9b7e36.css",
+    "static/js/main.c94b0b1e.js"
+  ]
+}

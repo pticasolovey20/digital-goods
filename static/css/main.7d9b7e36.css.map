@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.7d9b7e36.css","mappings":"AAAA,EAGC,sBAFA,SACA,UAEA,qBAGD,KACC","sources":["styles/styles.scss"],"sourcesContent":["* {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tbox-sizing: border-box;\r\n\ttext-decoration: none;\r\n}\r\n\r\nbody {\r\n\theight: 100vh;\r\n}\r\n"],"names":[],"sourceRoot":""}
